@@ -1,0 +1,13 @@
+cell = triangle
+
+P0  = FiniteElement("DG", cell, 0)
+
+u = TrialFunction(P0)
+v = TestFunction(P0)
+
+n = FacetNormal(cell)
+
+f = Constant(cell)
+
+a = u*v*dx
+L = f*v*dx
