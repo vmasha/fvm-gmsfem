@@ -17,7 +17,7 @@ Implementation of the method contains several parts:
 * **projection matrix generation** (./ms-rgen/) - load multiscale basis functions and create projection matrix R
 * **fine scale and multiscale solver** (./solver/) - solve fine grid system or/and multiscale solver
 
-Implementation based on the [FEniCS](https://fenicsproject.org) (geometry objects, functions for saving and visualization) and [PETSc](https://www.mcs.anl.gov/petsc/).
+Implementation based on the [FEniCS](https://fenicsproject.org) (geometry objects, functions for saving and visualization) and [PETSc](https://www.mcs.anl.gov/petsc/) (matrices, vectors and solvers).
 
 ## How to use
 
