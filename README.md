@@ -2,12 +2,14 @@
 
 Implementation of the Generalized Multiscale Finite Element Method (GMsFEM) for solution problems in heterogeneous media with finite volume approximation on the fine grid.
 
-Papers about GMsFEM:
+My papers about GMsFEM:
 
-* Efendiev Y, Galvis J, Hou TY. Generalized multiscale finite element methods (GMsFEM) [PDF](https://arxiv.org/abs/1301.2866)
 * Chung ET, Efendiev Y, Li G, Vasilyeva M. Generalized multiscale finite element methods for problems in perforated heterogeneous domains [PDF](https://arxiv.org/abs/1501.03536)
 * Akkutlu IY, Efendiev Y, Vasilyeva M. Multiscale model reduction for shale gas transport in fractured media [PDF](https://arxiv.org/abs/1507.00113)
 * Vasilyeva M, Chung ET, Efendiev Y, Tyrylgin A. A three-level multi-continua upscaling method for flow problems in fractured porous media [PDF](https://arxiv.org/abs/1810.01581)
+
+*I would be grateful if you add citations to my relevant publications when you use it in your research.*
+
 
 Implementation of the method contains several parts:
 
